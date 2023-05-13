@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "description": "This will load any static html site",
     "scripts": {
-      "start": "harp server --port $PORT",
-      "build-css": "node-sass scss/main.scss css/main.css"
+      "start": "harp server --port $PORT"
     },
     "dependencies": {
       "harp": "*"
